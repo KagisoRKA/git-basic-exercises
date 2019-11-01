@@ -1,0 +1,40 @@
+ 1020  ls
+ 1021  ls -a
+ 1022  git status
+ 1023  touch README.md
+ 1024  ls -a
+ 1025  git status
+ 1026  git log
+ 1027  git add README.md 
+ 1028  git status
+ 1029  git commit README.md -m "initial commit"
+ 1030  git log
+ 1031  nano README.md
+ 1032  cat README.md 
+ 1033  git status
+ 1034  git add README.md 
+ 1035  git commit README.md -m "second commit"
+ 1036  cat >> README.md 
+ 1037  cat README.md
+ 1038  git add README.md 
+ 1039  git commit README.md -m "third commit"
+ 1040  git log
+ 1041  git checkout f92accbf41d402fa38c5898fdd2c425121d681ab
+ 1042  cat README.md 
+ 1043  git checkout master
+ 1044  cat README.md 
+ 1045  git branch milkshake-flavours
+ 1046  git branch
+ 1047  git checkout milkshake-flavours 
+ 1048  git branch
+ 1049  nano milkshakes.md
+ 1050  git status
+ 1051  git add milkshakes.md
+ 1052  git commit milkshakes.md -m "added initial flavours"
+ 1053  git log
+ 1054  git checkout master
+ 1055  git log
+ 1056  git branch history
+ 1057  git checkout history
+ 1058  git log
+ 1059  history > history.txt
